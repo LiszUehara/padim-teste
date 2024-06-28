@@ -4,7 +4,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import { useLocation, useNavigate } from "react-router-dom";
 
 const drawerWidth = 240;
-const navItems = [{name:'./Home', link: './'}, {name:'Quem Somos', link: './#QuemSomos'}, {name: 'Linha de Pesquisa', link:'./#LinhaPesquisa'}, {name: 'Equipe', link: './#Equipe'}, {name: 'Projetos', link: '/Projetos'}];
+const navItems = [{name:'../Home', link: './'}, {name:'Quem Somos', link: './#QuemSomos'}, {name: 'Linha de Pesquisa', link:'./#LinhaPesquisa'}, {name: 'Equipe', link: './#Equipe'}, {name: 'Projetos', link: '/Projetos'}];
 
 const Header = () => {
   const location = useLocation();
